@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <ul id="messages"></ul>
+    <form action="/" method="post" id="formulaire_chat">
+        <input type="text" name="message" id="message" placeholder="Votre message ..." size="50" autofocus/>
+        <input type="submit" id="envoi_message" value="Envoyer" />
+    </form>
+
+    <section id="zone_chat">
+
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
